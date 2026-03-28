@@ -1,0 +1,76 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Memory captures
+MemoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+
+# =========================
+# Unity cache / artifacts
+# =========================
+[Bb]uilds/
+[Ll]ibrary/ArtifactDB
+[Ll]ibrary/ShaderCache/
+
+# =========================
+# Visual Studio / Rider
+# =========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# JetBrains Rider
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build files
+# =========================
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# =========================
+# Addressables
+# =========================
+ServerData/
+
+# =========================
+# Burst / large binaries
+# =========================
+Library/PackageCache/com.unity.burst*/
