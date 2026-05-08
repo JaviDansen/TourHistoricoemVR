@@ -152,6 +152,8 @@ ehthumbs_vista.db
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+echo "*.hdr" >> .gitignore
+
 # Windows Installer files
 *.cab
 *.msi
@@ -160,4 +162,6 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
-*.lnk
+*.lnk*.hdr
+*.hdr
+*.hdr
