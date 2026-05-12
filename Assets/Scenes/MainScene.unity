@@ -661,6 +661,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109753672}
   m_CullTransparentMesh: 1
+--- !u!1 &141321452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141321453}
+  m_Layer: 0
+  m_Name: TeleportPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &141321453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141321452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.5468, y: 0, z: -43.69539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1652912682}
+  - {fileID: 1123464187}
+  - {fileID: 693561657}
+  - {fileID: 1770513370}
+  - {fileID: 1635550755}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &154670934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,6 +3078,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 11ccc01453e786a44a50920e186ace8e, type: 3}
   m_PrefabInstance: {fileID: 657603032}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &693561656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693561657}
+  m_Layer: 0
+  m_Name: TP_HumbertoMaracana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693561657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693561656}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.004727641, y: -0.97802776, z: 0.022311643, w: 0.20722371}
+  m_LocalPosition: {x: -13.980695, y: 1.9, z: 31.421822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 141321453}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &714761360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4262,6 +4329,37 @@ Transform:
   - {fileID: 2082745455}
   m_Father: {fileID: 232286661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1123464186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123464187}
+  m_Layer: 0
+  m_Name: TP_Destrocos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123464187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123464186}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0064420914, y: -0.9766964, z: 0.029611751, w: -0.21247587}
+  m_LocalPosition: {x: -9.245582, y: 1.7, z: 23.723442}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 141321453}
+  m_LocalEulerAnglesHint: {x: 0, y: 171.55, z: 0}
 --- !u!1001 &1147186621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5309,7 +5407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344085153}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9999809, z: -0, w: 0.006178761}
+  m_LocalRotation: {x: 0, y: 0.9999809, z: 0, w: 0.006178483}
   m_LocalPosition: {x: -9.15, y: 1.7, z: -4.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6280,7 +6378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cf28e628e013ce74a91e1f86c12b4e23, type: 3}
       propertyPath: m_LocalScale.x
-      value: 90
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cf28e628e013ce74a91e1f86c12b4e23, type: 3}
       propertyPath: m_LocalScale.y
@@ -6734,6 +6832,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608431517}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1635550754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635550755}
+  m_Layer: 0
+  m_Name: TP_DonaTete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1635550755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635550754}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00041506303, y: -0.9880401, z: -0.0026587313, w: 0.15417367}
+  m_LocalPosition: {x: 20.004665, y: 1.9, z: 41.198414}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 141321453}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1652912681
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,7 +6873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1652912682}
   m_Layer: 0
-  m_Name: PontoChamine
+  m_Name: TP_Chamines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6758,13 +6887,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652912681}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -9.28, y: 1.7, z: -28.18}
+  m_LocalRotation: {x: 0.0026410709, y: -0.98743725, z: 0.016599495, w: 0.1571152}
+  m_LocalPosition: {x: 6.392315, y: 1.7, z: 20.12535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_Father: {fileID: 141321453}
+  m_LocalEulerAnglesHint: {x: 0, y: 178.248, z: 0}
 --- !u!1 &1664292107
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,6 +7234,9 @@ MonoBehaviour:
   objectives:
   - "V\xE1 at\xE9 as Chamin\xE9s"
   - "V\xE1 at\xE9 os Detro\xE7os"
+  - "V\xE1 at\xE9 o Armazem Dona Tet\xE9"
+  - "V\xE1 at\xE9 o Armazem Humberto Maracan\xE3"
+  - "Retorne ao P\xE1tio"
 --- !u!1001 &1704097222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7705,6 +7837,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760929548}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1770513369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770513370}
+  m_Layer: 0
+  m_Name: TP_Final
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1770513370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770513369}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0043610586, y: -0.96291876, z: -0.015591846, w: -0.26930553}
+  m_LocalPosition: {x: -14.878274, y: 1.9, z: 37.637474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 141321453}
+  m_LocalEulerAnglesHint: {x: 0, y: 166.568, z: 0}
 --- !u!1001 &1795149397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9351,5 +9514,5 @@ SceneRoots:
   - {fileID: 1344085159}
   - {fileID: 1482862189}
   - {fileID: 377833548}
-  - {fileID: 1652912682}
   - {fileID: 1703717078}
+  - {fileID: 141321453}
