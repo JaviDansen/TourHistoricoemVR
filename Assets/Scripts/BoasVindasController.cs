@@ -3,21 +3,38 @@ using UnityEngine; // Biblioteca principal da Unity
 
 public class BoasVindasController : MonoBehaviour // Classe principal do script
 {
-    public GameObject painelBoasVindas; // Painel da UI que será escondido
-    public GameObject xrOrigin; // Jogador XR que será teleportado
-    public Transform pontoChamine; // Ponto para onde o jogador irá
+    [Header("UI Inicial")]
+    public GameObject painelBoasVindas; // Painel inicial
+
+    [Header("Jogador VR")]
+    public GameObject xrOrigin; // Jogador XR
+
+    [Header("Destino Inicial")]
+    public Transform pontoChamine; // Primeiro ponto do tour
+
+    [Header("Primeira UI")]
+    public GameObject uiChamines; // Interface das Chaminés
+
+    [Header("HUD")]
+    public TourObjectiveManager tourManager; // Sistema de objetivos
 
     public void IniciarTour() // Função chamada ao clicar no botão
     {
-        StartCoroutine(IniciarTourCoroutine()); // Inicia sequência com delay
+        StartCoroutine(IniciarTourCoroutine()); // Inicia sequência
     }
 
     IEnumerator IniciarTourCoroutine() // Coroutine da sequência
     {
-        painelBoasVindas.SetActive(false); // Esconde UI
+        painelBoasVindas.SetActive(false); // Esconde UI inicial
 
-        yield return new WaitForSeconds(3f); // Espera 3 segundos
+        yield return new WaitForSeconds(3f); // Espera antes do teleporte
 
-        xrOrigin.transform.position = pontoChamine.position; // Teleporta jogador
+        xrOrigin.transform.position = pontoChamine.position; // Move jogador
+
+        xrOrigin.transform.rotation = pontoChamine.rotation; // Ajusta rotação
+
+        uiChamines.SetActive(true); // Mostra UI das Chaminés
+
+        tourManager.NextObjective(); // Inicia primeiro objetivo
     }
 }
