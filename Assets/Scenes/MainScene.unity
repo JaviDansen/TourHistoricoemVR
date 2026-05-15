@@ -250,7 +250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &56719948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,17 +951,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127974417}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -362.70477}
+  m_LocalRotation: {x: -0.0000000041618473, y: 0.17166008, z: 4.6566123e-10, w: 0.9851563}
+  m_LocalPosition: {x: 0, y: 0, z: -360.45544}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 475733599}
   m_Father: {fileID: 263264819}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 19.769, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2874.8, y: 2156.929}
+  m_AnchoredPosition: {x: -2873.7566, y: 2156.9312}
   m_SizeDelta: {x: 946, y: 549}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &141321452
@@ -2133,14 +2133,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263264817}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0018924563, y: -0.99829924, z: 0.023925327, w: 0.05312933}
-  m_LocalPosition: {x: -2906.812, y: -2150.3257, z: 9.943146}
+  m_LocalRotation: {x: -0.002601676, y: -0.9957339, z: 0.029807827, w: 0.08728489}
+  m_LocalPosition: {x: -2901.62, y: -2141.59, z: 233.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 127974421}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 2.726, y: -173.899, z: 0.363}
+  m_LocalEulerAnglesHint: {x: 3.377, y: -169.963, z: 0.596}
 --- !u!1 &294024171
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,7 +5434,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855646782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 23.700315}
+  m_LocalPosition: {x: 0, y: 0, z: 24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5443,7 +5443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79.80959, y: -193.42871}
+  m_AnchoredPosition: {x: 13, y: -217}
   m_SizeDelta: {x: 180, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855646784
@@ -5784,7 +5784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -323, y: 84}
+  m_AnchoredPosition: {x: -397, y: 108}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887604991
@@ -5807,11 +5807,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "As duas chamin\xE9s surgiram porque o complexo tamb\xE9m passou a abrigar
-    atividades industriais. Elas eram ligadas \xE0s caldeiras e m\xE1quinas de uma
-    antiga usina el\xE9trica e de f\xE1bricas que funcionavam ali, incluindo produ\xE7\xE3o
-    relacionada ao \xF3leo de baba\xE7u. Na \xE9poca, a fuma\xE7a precisava ser expelida
-    para grandes alturas, ent\xE3o as chamin\xE9s foram constru\xEDdas."
+  m_text: "As chamin\xE9s do Trapiche representam uma importante parte do passado
+    industrial e portu\xE1rio de S\xE3o Lu\xEDs. Durante muitos anos, essa regi\xE3o
+    foi utilizada para atividades comerciais ligadas ao transporte e armazenamento
+    de mercadorias.\nAl\xE9m de fazerem parte da estrutura industrial do local, as
+    chamin\xE9s tornaram-se s\xEDmbolos hist\xF3ricos da antiga movimenta\xE7\xE3o
+    econ\xF4mica do Trapiche Santo \xC2ngelo. Mesmo ap\xF3s o passar do tempo, elas
+    permanecem como marcas vis\xEDveis da arquitetura e da mem\xF3ria hist\xF3rica
+    da regi\xE3o.\nAo observar essas estruturas, \xE9 poss\xEDvel compreender um
+    pouco da import\xE2ncia que o complexo teve para o desenvolvimento comercial
+    e cultural da cidade."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5838,14 +5843,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5961,7 +5966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -159, y: 233}
+  m_AnchoredPosition: {x: -159, y: 246}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908440646
@@ -5984,7 +5989,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "As chamin\xE9s do trapiche"
+  m_text: "As chamin\xE9s do Trapiche"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6011,8 +6016,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6050,7 +6055,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -325.16586, w: 0}
+  m_margin: {x: -268.82162, y: 0, z: -583.0276, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10126,7 +10131,7 @@ Transform:
   m_GameObject: {fileID: 1652912681}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0012553658, y: -0.99417865, z: -0.029540366, w: 0.10360788}
-  m_LocalPosition: {x: 5.26, y: 1.9, z: 20.75}
+  m_LocalPosition: {x: 5.35, y: 1.92, z: 20.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
