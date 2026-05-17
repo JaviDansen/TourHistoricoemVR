@@ -24,6 +24,8 @@ public class QuizManager : MonoBehaviour // Classe principal do Quiz
 
     private int score = 0; // Quantidade de acertos
 
+    private bool answered = false; // Impede múltiplos cliques na mesma pergunta
+
     // Estrutura das perguntas
     private QuizQuestion[] questions =
     {
@@ -97,6 +99,8 @@ public class QuizManager : MonoBehaviour // Classe principal do Quiz
 
     private void ShowQuestion() // Atualiza pergunta atual
     {
+        answered = false; // Libera resposta para nova pergunta
+
         QuizQuestion question = questions[currentQuestion]; // Obtém pergunta atual
 
         questionText.text = question.question; // Atualiza texto da pergunta
@@ -118,6 +122,10 @@ public class QuizManager : MonoBehaviour // Classe principal do Quiz
 
     private void CheckAnswer(int answerIndex) // Verifica resposta selecionada
     {
+        if (answered) return; // Bloqueia spam de clique
+
+        answered = true; // Marca pergunta como respondida
+
         QuizQuestion question = questions[currentQuestion]; // Obtém pergunta atual
 
         // Verifica se acertou
