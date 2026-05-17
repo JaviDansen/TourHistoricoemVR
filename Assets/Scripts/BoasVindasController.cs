@@ -16,7 +16,7 @@ public class BoasVindasController : MonoBehaviour // Classe principal do script
     public GameObject uiChamines; // Interface das Chaminés
 
     [Header("HUD")]
-    public TourObjectiveManager tourManager; // Sistema de objetivos
+    public TourUIManager tourManager; // Sistema de objetivos
 
     public void IniciarTour() // Função chamada ao clicar no botão
     {
