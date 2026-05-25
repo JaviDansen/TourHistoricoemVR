@@ -75,6 +75,21 @@ Cada estação possui:
 
 ---
 
+## ✅ Quiz Educativo Final
+Sistema completo de perguntas interativas ao final do tour para reforço do aprendizado histórico.
+Exibição de mensagens de:
+- "Resposta correta!"
+- "Resposta incorreta!"
+com transição automática entre perguntas.
+
+---
+
+## ✅ Sistema de Pontuação
+Contagem automática de acertos durante o quiz com exibição de resultado final ao usuário.
+
+---
+
+
 # 🏛️ Estações do Tour
 
 ## 🔸 Chaminés
@@ -176,21 +191,14 @@ UI_Estacao
 
 ---
 
-# 🚧 Funcionalidades Futuras
-
-- Quiz educativo final
-- Sistema de pontuação
-- Salvamento de progresso
-- Melhorias visuais
-- Otimização VR
-- Efeitos sonoros ambientais
-- Sistema de analytics educacional
-
----
-
 # 👨‍💻 Equipe
 
 Projeto acadêmico desenvolvido para fins educacionais e de pesquisa em Realidade Virtual aplicada ao patrimônio histórico.
+
+-Andre Martins
+-Davi Jansen
+-Enzo Guilherme
+-Heitor Wagner
 
 ---
 
