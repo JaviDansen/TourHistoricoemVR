@@ -21,9 +21,6 @@ public class StationProgress : MonoBehaviour // Controla a progressão entre est
     [Header("XR Origin")] // Organização visual no Inspector
     public Transform xrOrigin; // Referência do jogador VR
 
-    [Header("Tour Manager")] // Organização visual no Inspector
-    public TourUIManager tourManager; // Gerenciador da HUD
-
     [Header("Fade")] // Organização visual no Inspector
     public FadeController fadeController; // Controlador do fade
 
@@ -67,18 +64,6 @@ public class StationProgress : MonoBehaviour // Controla a progressão entre est
         if (nextCanvas != null) // Verifica próximo canvas
         {
             nextCanvas.SetActive(true); // Mostra próximo canvas
-        }
-        else // Se não existir próximo canvas
-        {
-            if (tourManager != null) // Verifica Tour Manager
-            {
-                tourManager.ShowQuiz(); // Mostra quiz final
-            }
-        }
-
-        if (tourManager != null) // Verifica HUD
-        {
-            tourManager.NextObjective(); // Atualiza objetivo
         }
 
         if (fadeController != null) // Verifica fade

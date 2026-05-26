@@ -15,9 +15,6 @@ public class BoasVindasController : MonoBehaviour // Classe principal do script
     [Header("Primeira UI")]
     public GameObject uiChamines; // Interface das Chaminés
 
-    [Header("HUD")]
-    public TourUIManager tourManager; // Sistema de objetivos
-
     public void IniciarTour() // Função chamada ao clicar no botão
     {
         StartCoroutine(IniciarTourCoroutine()); // Inicia sequência
@@ -34,7 +31,5 @@ public class BoasVindasController : MonoBehaviour // Classe principal do script
         xrOrigin.transform.rotation = pontoChamine.rotation; // Ajusta rotação
 
         uiChamines.SetActive(true); // Mostra UI das Chaminés
-
-        tourManager.NextObjective(); // Inicia primeiro objetivo
     }
 }
