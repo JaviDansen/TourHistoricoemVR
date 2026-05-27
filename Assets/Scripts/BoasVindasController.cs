@@ -15,6 +15,12 @@ public class BoasVindasController : MonoBehaviour // Classe principal do script
     [Header("Primeira UI")]
     public GameObject uiChamines; // Interface das Chaminés
 
+    [Header("Fade")]
+    public FadeController fadeController; // Controlador do fade
+
+    [Header("Delay")]
+    public float teleportDelay = 2f; // Tempo antes do teleporte
+
     public void IniciarTour() // Função chamada ao clicar no botão
     {
         StartCoroutine(IniciarTourCoroutine()); // Inicia sequência
@@ -22,14 +28,30 @@ public class BoasVindasController : MonoBehaviour // Classe principal do script
 
     IEnumerator IniciarTourCoroutine() // Coroutine da sequência
     {
+        // ---------- FADE IN ----------
+        if (fadeController != null) // Verifica se existe fade
+        {
+            yield return StartCoroutine(fadeController.FadeIn()); // Escurece tela
+        }
+
+        // ---------- ESCONDE UI INICIAL ----------
         painelBoasVindas.SetActive(false); // Esconde UI inicial
 
-        yield return new WaitForSeconds(3f); // Espera antes do teleporte
+        // ---------- ESPERA ----------
+        yield return new WaitForSeconds(teleportDelay); // Espera antes do teleporte
 
+        // ---------- TELEPORTE ----------
         xrOrigin.transform.position = pontoChamine.position; // Move jogador
 
         xrOrigin.transform.rotation = pontoChamine.rotation; // Ajusta rotação
 
+        // ---------- MOSTRA PRIMEIRA UI ----------
         uiChamines.SetActive(true); // Mostra UI das Chaminés
+
+        // ---------- FADE OUT ----------
+        if (fadeController != null) // Verifica se existe fade
+        {
+            yield return StartCoroutine(fadeController.FadeOut()); // Clareia tela
+        }
     }
 }
