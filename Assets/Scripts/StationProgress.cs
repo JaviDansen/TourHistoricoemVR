@@ -24,6 +24,9 @@ public class StationProgress : MonoBehaviour // Controla a progressão entre est
     [Header("Fade")] // Organização visual no Inspector
     public FadeController fadeController; // Controlador do fade
 
+    [Header("Narração")] // Organização visual no Inspector
+    public PlayNarration playNarration; // Script que controla o áudio da estação
+
     [Header("Delay")] // Organização visual no Inspector
     public float teleportDelay = 2f; // Tempo antes do teleporte
 
@@ -40,6 +43,11 @@ public class StationProgress : MonoBehaviour // Controla a progressão entre est
 
     private IEnumerator TeleportWithDelay() // Executa transição completa
     {
+        if (playNarration != null) // Verifica se essa estação tem narração
+        {
+            playNarration.PararNarracao(); // Para a narração antes do teleporte
+        }
+
         if (fadeController != null) // Verifica se existe fade
         {
             yield return StartCoroutine(fadeController.FadeIn()); // Escurece tela
